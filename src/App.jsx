@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
 import Skills from "./components/Skills.jsx";
 import Academic from "./components/Academic.jsx";
-import ExtraCurricular from "./components/ExtraCurricular.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
 
@@ -31,6 +31,7 @@ function App() {
         </Container>
         <Skills/>
         <Academic/>
+        <Footer/>
     </>
   )
 }
