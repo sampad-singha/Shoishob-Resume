@@ -11,7 +11,7 @@ function App() {
   return (
     <>
         <NavBar/>
-        <div>
+        <div className="landing">
             <h1>SHAHRIAR AHMED</h1>
             <h3>Software Engineer</h3>
         </div>
