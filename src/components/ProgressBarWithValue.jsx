@@ -5,7 +5,7 @@ import {ProgressBar} from "react-bootstrap";
 // eslint-disable-next-line react/prop-types
 const ProgressBarWithValue = ({progress}) => {
     const now = progress;
-    return <ProgressBar style={{color: "red"}} now={now} label={`${now}%`} />;
+    return <ProgressBar now={now} label={`${now}%`} />;
 };
 
 export default ProgressBarWithValue;

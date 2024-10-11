@@ -2,9 +2,9 @@
 import NavBar from "./components/Navbar.jsx";
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
-import CardHorizontal from "./components/CardHorizontal.jsx";
-import JobCard from "./components/JobCard.jsx";
-import Skill from "./components/Skill.jsx";
+import Skills from "./components/Skills.jsx";
+import Academic from "./components/Academic.jsx";
+import ExtraCurricular from "./components/ExtraCurricular.jsx";
 
 function App() {
 
@@ -29,13 +29,8 @@ function App() {
                 </Col>
             </Row>
         </Container>
-        <Skill/>
-        <div>
-            <h1>Academic Credentials</h1>
-            <CardHorizontal/>
-            <CardHorizontal/>
-            <CardHorizontal/>
-        </div>
+        <Skills/>
+        <Academic/>
     </>
   )
 }

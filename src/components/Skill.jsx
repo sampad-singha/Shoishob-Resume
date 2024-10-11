@@ -4,7 +4,8 @@ import ProgressBarWithValue from "./ProgressBarWithValue.jsx";
 
 const Skill = () => {
     return (
-        <div style={{width: "10%"}}>
+        <div style={{width: "15%"}}>
+            <img src="" alt="logo"/>
             <h3>ArcMap</h3>
             <ProgressBarWithValue progress={90}/>
         </div>

@@ -12,7 +12,7 @@ const JobCard = () => {
                             <img src={""} alt={"CEGIS logo"}/>
                         </Col>
                         <Col>
-                        <h1>CEGIS</h1>
+                        <h2>CEGIS</h2>
                             <p>Research Consultant, Remote Sensing Division</p>
                             <p>Nov 2023- Present</p>
                         </Col>
