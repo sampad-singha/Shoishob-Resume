@@ -1,8 +1,100 @@
 {
-  "hash": "d597883b",
+  "hash": "3791d684",
   "configHash": "e1f463d9",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "81706a7e",
-  "optimized": {},
-  "chunks": {}
+  "lockfileHash": "8b32cbd5",
+  "browserHash": "ea5987b2",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "440962fd",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "5972da01",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "0abf00d6",
+      "needsInterop": false
+    },
+    "react-bootstrap/Container": {
+      "src": "../../node_modules/react-bootstrap/esm/Container.js",
+      "file": "react-bootstrap_Container.js",
+      "fileHash": "15f743fd",
+      "needsInterop": false
+    },
+    "react-bootstrap": {
+      "src": "../../node_modules/react-bootstrap/esm/index.js",
+      "file": "react-bootstrap.js",
+      "fileHash": "8a59cf35",
+      "needsInterop": false
+    },
+    "react-bootstrap/Nav": {
+      "src": "../../node_modules/react-bootstrap/esm/Nav.js",
+      "file": "react-bootstrap_Nav.js",
+      "fileHash": "729c4320",
+      "needsInterop": false
+    },
+    "react-bootstrap/Navbar": {
+      "src": "../../node_modules/react-bootstrap/esm/Navbar.js",
+      "file": "react-bootstrap_Navbar.js",
+      "fileHash": "e59d605c",
+      "needsInterop": false
+    },
+    "react-bootstrap/Button": {
+      "src": "../../node_modules/react-bootstrap/esm/Button.js",
+      "file": "react-bootstrap_Button.js",
+      "fileHash": "4e6ad47e",
+      "needsInterop": false
+    },
+    "react-bootstrap/Card": {
+      "src": "../../node_modules/react-bootstrap/esm/Card.js",
+      "file": "react-bootstrap_Card.js",
+      "fileHash": "1248bde4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-55AKEUMS": {
+      "file": "chunk-55AKEUMS.js"
+    },
+    "chunk-PCPQSE2M": {
+      "file": "chunk-PCPQSE2M.js"
+    },
+    "chunk-VK4D76LC": {
+      "file": "chunk-VK4D76LC.js"
+    },
+    "chunk-2VJSQEOG": {
+      "file": "chunk-2VJSQEOG.js"
+    },
+    "chunk-NG32K6CH": {
+      "file": "chunk-NG32K6CH.js"
+    },
+    "chunk-G4HQAWQN": {
+      "file": "chunk-G4HQAWQN.js"
+    },
+    "chunk-QPG7G3M7": {
+      "file": "chunk-QPG7G3M7.js"
+    },
+    "chunk-FRYZNDT3": {
+      "file": "chunk-FRYZNDT3.js"
+    },
+    "chunk-U27HRQON": {
+      "file": "chunk-U27HRQON.js"
+    },
+    "chunk-EH3BE23V": {
+      "file": "chunk-EH3BE23V.js"
+    },
+    "chunk-RRDTMY6V": {
+      "file": "chunk-RRDTMY6V.js"
+    },
+    "chunk-UTEJFLXC": {
+      "file": "chunk-UTEJFLXC.js"
+    }
+  }
 }

@@ -4,6 +4,8 @@ import App from './App.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 // import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Experience from "./pages/Experience.jsx";
+import Research from "./pages/Research.jsx";
 
 const router = createBrowserRouter([
     {
@@ -13,7 +15,12 @@ const router = createBrowserRouter([
     },
     {
         path: '/research',
-        element: <h1>Research</h1>,
+        element: <Research/>,
+    },
+    {
+        path: '/experience',
+        element: <Experience/>,
+
     }
 ]);
 createRoot(document.getElementById('root')).render(

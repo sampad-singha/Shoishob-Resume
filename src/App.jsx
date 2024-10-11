@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
 import CardHorizontal from "./components/CardHorizontal.jsx";
 import JobCard from "./components/JobCard.jsx";
+import Skill from "./components/Skill.jsx";
 
 function App() {
 
@@ -28,16 +29,12 @@ function App() {
                 </Col>
             </Row>
         </Container>
+        <Skill/>
         <div>
             <h1>Academic Credentials</h1>
             <CardHorizontal/>
             <CardHorizontal/>
             <CardHorizontal/>
-        </div>
-        <div>
-            <h1>Professional Experience</h1>
-            <JobCard/>
-            <JobCard/>
         </div>
     </>
   )
