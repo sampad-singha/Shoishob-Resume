@@ -3,8 +3,8 @@ import CardHorizontal from "./CardHorizontal.jsx";
 
 const Academic = () => {
     return (
-        <div>
-            <h1>Academic Credentials</h1>
+        <div className="academic">
+            <h2>Academic Credentials</h2>
             <CardHorizontal/>
             <CardHorizontal/>
             <CardHorizontal/>

@@ -3,8 +3,8 @@ import {Tab, Tabs} from "react-bootstrap";
 
 const Skills = () => {
     return (
-        <div>
-            <h1>Technical Skills</h1>
+        <div className="skills">
+            <h2>Technical Skills</h2>
 
             <Tabs
                 defaultActiveKey="home"
@@ -12,16 +12,27 @@ const Skills = () => {
                 className="mb-3"
             >
                 <Tab eventKey="home" title="Home">
-                    Tab content for Home
+                    <div className="skill-group">
+                        <Skill/>
+                        <Skill/>
+                        <Skill/>
+                    </div>
                 </Tab>
                 <Tab eventKey="profile" title="Profile">
-                    Tab content for Profile
+                    <div className="skill-group">
+                        <Skill/>
+                        <Skill/>
+                        <Skill/>
+                    </div>
                 </Tab>
-                <Tab eventKey="contact" title="Contact" disabled>
-                    Tab content for Contact
+                <Tab eventKey="contact" title="Contact">
+                    <div className="skill-group">
+                        <Skill/>
+                        <Skill/>
+                        <Skill/>
+                    </div>
                 </Tab>
             </Tabs>
-            <Skill/>
         </div>
     );
 };

@@ -7,7 +7,7 @@ import 'react-circular-progressbar/dist/styles.css';
 const Skill = () => {
     return (
         <div className="skill-card">
-            <Card style={{ width: '16rem' }}>
+            <Card style={{ width: '12rem' }}>
                 <Card.Img as="img" variant="top" width="50px" src="src/assets/cegis-logo.png" />
                 <Card.Body>
                     <Card.Title>ArcMap</Card.Title>
