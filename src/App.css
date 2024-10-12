@@ -2,13 +2,14 @@ body{
   background-color: #f8f9fa;
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  padding: 0 6rem;
+  /*padding: 0 8rem;*/
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 .navigation{
   position: sticky;
   top: 0;
+  padding : 1rem 0;
 }
 
 /*                  **********Landing*******************/
@@ -21,4 +22,59 @@ body{
   font-size: 4rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+/*                  **********about*******************/
+.about{
+  background-color: #508C9B;
+  display: flex;
+  justify-content: space-between;
+  padding: 6em 6rem;
+  text-align: justify;
+}
+.about .dp{
+  align-self: center;
+}
+.about h2{
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+.about p{
+  font-size: 1rem;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+.about h6, .about a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  padding: 0.2em 0;
+}
+
+/*                      **********Skill***************/
+.skill-card .card{
+  align-items: center;
+  height: 16rem;
+  text-align: center;
+  background: linear-gradient(45deg, #e6e6e6, #ffffff);
+  border: none;
+  box-shadow:  7px -7px 14px #ebebeb,
+  -7px 7px 14px #ffffff;
+}
+
+.skill-card .card-img-top{
+  width: 100px;
+}
+.skill-card .card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  color: #508C9B;
+
+}
+.skill-card .progress-bar-container{
+  width: 6rem;
+  height: 6rem;
 }
