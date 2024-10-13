@@ -1,11 +1,13 @@
-import CardHorizontal from "./CardHorizontal.jsx";
-
+import ImageBanner from "./ImageBanner.jsx";
 
 const ExtraCurricular = () => {
     return (
-        <div>
-            <h1>Extra Curricular Activities</h1>
-            <CardHorizontal/>
+        <div className="extra-curricular">
+            <h2>Extra Curricular Activities</h2>
+            <div className="banners">
+                <ImageBanner/>
+                <ImageBanner/>
+            </div>
         </div>
     );
 };

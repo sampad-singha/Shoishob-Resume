@@ -9,8 +9,8 @@ const Experience = () => {
     return (
         <div>
             <NavBar/>
-            <div>
-                <h1>Professional Experience</h1>
+            <div className="jobs">
+                <h2>Professional Experience</h2>
                 <JobCard/>
                 <JobCard/>
             </div>

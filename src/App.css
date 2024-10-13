@@ -62,7 +62,7 @@ body{
   text-align: center;
   background: linear-gradient(45deg, #e6e6e6, #ffffff);
   border: none;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
 }
 
 .skill-card .card-img-top{
@@ -157,36 +157,145 @@ body{
 
 /*                      **********Footer***************/
 .footer{
-    background-color: #508C9B;
-    color: #fff;
-    padding: 2rem 6rem;
-    text-align: center;
+  background-color: #508C9B;
+  color: #fff;
+  padding: 2rem 6rem;
+  text-align: center;
 }
 .footer h5{
-    font-size: 1.4rem;
-    /*padding-bottom: 1rem;*/
+  font-size: 1.4rem;
+  font-weight: 300;
   margin: 0;
 }
 .footer .footer-links{
-    display: flex;
-    justify-content: center;
-    padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
 }
 .footer a {
   display: block;
   align-self: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
-  padding: 0 1.5rem;
+  margin: 0 1rem;
 }
 .footer a:hover {
   color: #e6e6e6;
 }
 .footer p{
-    font-size: 0.8rem;
-    padding-bottom: 1rem;
-    margin: 0;
+  font-size: 0.8rem;
+  margin: 0;
 }
 
 /*                    ****************Experience****************/
+.job-card{
+  align-items: center;
+  background-color: #e7edf1;
+  border-radius: 6px;
+  padding: 2rem;
+  margin: 4rem 0 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 4px 6px 0;
+}
+.job-card .job-card-left{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 2rem 0 2rem 0 ;
+}
+.job-card .job-card-left img{
+  height: 150px;
+  width: 150px;
+}
+.job-card .job-card-left h3{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #508C9B;
+}
+.job-card .job-card-left p{
+  font-size: 1.2rem;
+  margin: 0.2rem 0;
+}
+.job-card-left .time{
+  display: inline-block;
+  background-color: #508C9B;
+  padding: 0.2rem 1rem;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+.job-card .list{
+
+}
+.job-card .list h5{
+  color: #508C9B;
+}
+.job-card .list li{
+  text-align: justify;
+  margin: 1rem 2rem 1rem 0;
+}
+.jobs{
+  margin: 6rem 6rem;
+  align-items: start;
+}
+.jobs h2{
+  font-size: 2.8rem;
+  color: #508C9B;
+  padding: 4rem 0 1rem;
+  border-bottom: 3px solid #508C9B;
+}
+/*                              ************Extra Curricular***********/
+.image-banner{
+  background-color: #e7edf1;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 2px 6px 6px 2px;
+}
+.image-banner img{
+    width: 100%;
+    border-radius: 6px;
+}
+.image-banner .title{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.image-banner .title h5{
+  font-size: 1.5rem;
+  color: #508C9B;
+  letter-spacing: 0.2rem;
+}
+.image-banner .title p{
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: #508C9B;
+  padding: 0.2rem 1rem;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.image-banner .achievement{
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #508C9B;
+  margin: 0;
+  padding: 0.2rem 1rem;
+  border-radius: 6px;
+}
+.extra-curricular{
+  padding: 6rem 6rem;
+}
+.extra-curricular h2{
+  font-size: 2.8rem;
+  color: #508C9B;
+  margin-bottom: 4rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #508C9B;
+}
+.extra-curricular .banners{
+  display: flex;
+  gap: 4rem;
+}
