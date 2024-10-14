@@ -1,15 +1,21 @@
 
-function CardHorizontal() {
+function CardHorizontal(props) {
+    const degree = props.data.degree;
+    const span = props.data.span;
+    const image = props.data.image;
+    const institute = props.data.institute;
+    const grade = props.data.grade;
+    const scale = props.data.scale;
     return (
         <div className="card-h">
             <div>
-                <img className="placeholder" src="" alt=""/>
+                <img className="" src={image} alt=""/>
             </div>
             <div className="text">
-                <h4>Bachelor in Urban & Regional Planning</h4>
-                <p>January 2018- October 2023</p>
-                <p>Rajshahi University of Engineering and Technology</p>
-                <p className="result">CGPA: <span>3.80</span> out of 4.00</p>
+                <h4>{degree}</h4>
+                <p>{span}</p>
+                <p>{institute}</p>
+                <p className="result">CGPA: <span>{grade}</span> out of {scale}</p>
             </div>
         </div>
     );

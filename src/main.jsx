@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Experience from "./pages/Experience.jsx";
 import Researches from "./pages/Researches.jsx";
+import PdfView from "./pages/PdfView.jsx";
 
 const router = createBrowserRouter([
     {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     },
     {
         path: '/research/:id',
-        element: <h1>Research ID</h1>,
+        element: <PdfView/>,
     },
     {
         path: '/experience',

@@ -5,9 +5,10 @@ import Footer from "./components/Footer.jsx";
 import {FaLocationDot} from "react-icons/fa6";
 import {FaPhone} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
+import db from "/database.json"
 
 function App() {
-
+    const academic = db?.academic;
   return (
     <>
         <NavBar/>
@@ -36,7 +37,9 @@ function App() {
             </div>
         </div>
         <Skills/>
-        <Academic/>
+        <Academic
+            data={academic}
+        />
         <Footer/>
     </>
   )

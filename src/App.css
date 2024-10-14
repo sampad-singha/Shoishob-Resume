@@ -8,7 +8,7 @@ body{
 .navigation{
   position: sticky;
   top: 0;
-  padding : 1em 0;
+  padding : 1rem 0;
   background-color: #FFFFFF;
   z-index: 999;
 }
@@ -20,10 +20,10 @@ body{
   text-align: center;
 }
 .landing h1{
-  font-size: 4em;
+  font-size: 4rem;
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.8em;
-  padding-bottom: 1em;
+  letter-spacing: 0.8rem;
+  padding-bottom: 1rem;
 }
 
 /*                  **********about*******************/
@@ -31,33 +31,33 @@ body{
   background-color: #508C9B;
   display: flex;
   justify-content: space-between;
-  padding: 6em 6em;
+  padding: 6rem 6rem;
   text-align: justify;
 }
 .about .dp{
   align-self: center;
 }
 .about h2{
-  font-size: 2.8em;
+  font-size: 2.8rem;
   color: #fff;
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 .about p{
-  font-size: 1em;
+  font-size: 1rem;
   color: #fff;
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 .about h6, .about a{
   color: #fff;
   text-decoration: none;
   display: block;
-  padding: 0.2em 0;
+  padding: 0.2rem 0;
 }
 
 /*                      **********Skill***************/
 .skill-card .card{
-  padding: 1em 0;
-  margin: 2em 0;
+  padding: 1rem 0;
+  margin: 2rem 0;
   align-items: center;
   text-align: center;
   background: linear-gradient(45deg, #e6e6e6, #ffffff);
@@ -69,23 +69,23 @@ body{
   width: 80px;
 }
 .skill-card .card-title{
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: bold;
-  padding: 0.5em 0;
+  padding: 0.5rem 0;
   color: #508C9B;
 }
 .skill-card .progress-bar-container{
-  width: 6em;
-  height: 6em;
+  width: 6rem;
+  height: 6rem;
 }
 
 /*                          ************Skills*************/
 .skills{
-  padding: 6em 6em;
+  padding: 6rem 6rem;
 }
 .skills h2{
-  font-size: 2.8em;
-  padding-bottom: 1em;
+  font-size: 2.8rem;
+  padding-bottom: 1rem;
   color: #508C9B;
 }
 .skills ul{
@@ -96,7 +96,7 @@ body{
   background:none;
   border-radius: 6px;
   border: 1px solid #ffffff!important;
-  margin: 0 0.5em;
+  margin: 0 0.5rem;
 }
 .skills button:hover , .skills button:focus, .skills button:active{
   color: #508C9B;
@@ -112,15 +112,15 @@ body{
 .skill-group{
   display: flex;
   justify-content: left;
-  gap: 6em;
+  gap: 6rem;
 }
 
 /***                        *************Academic***************/
 
 .card-h {
   display: flex;
-  gap: 6em;
-  margin: 2em 0;
+  gap: 6rem;
+  margin: 2rem 0;
 }
 .card-h img{
   height: 150px;
@@ -132,14 +132,14 @@ body{
   justify-content: center;
 }
 .card-h h4{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #508C9B;
 }
 .card-h p{
-  margin: 0.2em 0;
+  margin: 0.2rem 0;
 }
 .card-h .result{
-  font-size: 1.1em;
+  font-size: 1.1rem;
   color: #508C9B;
 }
 .card-h .result span{
@@ -147,11 +147,11 @@ body{
 }
 .academic{
   background-color: #e7edf1;
-  padding: 6em;
+  padding: 6rem;
 }
 .academic h2{
-  font-size: 2.8em;
-  padding-bottom: 1em;
+  font-size: 2.8rem;
+  padding-bottom: 1rem;
   color: #508C9B;
 }
 
@@ -159,32 +159,32 @@ body{
 .footer{
   background-color: #508C9B;
   color: #fff;
-  padding: 2em 6em;
+  padding: 2rem 6rem;
   text-align: center;
 }
 .footer h5{
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-weight: 300;
   margin: 0;
 }
 .footer .footer-links{
   display: flex;
   justify-content: center;
-  padding: 1em 0;
+  padding: 1rem 0;
 }
 .footer a {
   display: block;
   align-self: center;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
-  margin: 0 1em;
+  margin: 0 1rem;
 }
 .footer a:hover {
   color: #e6e6e6;
 }
 .footer p{
-  font-size: 0.8em;
+  font-size: 0.8rem;
   margin: 0;
 }
 
@@ -193,33 +193,33 @@ body{
   align-items: center;
   background-color: #e7edf1;
   border-radius: 6px;
-  padding: 2em;
-  margin: 4em 0 0;
+  padding: 2rem;
+  margin: 4rem 0 0;
   box-shadow: rgba(99, 99, 99, 0.2) 0 4px 6px 0;
 }
 .job-card .job-card-left{
   display: flex;
   flex-direction: row;
-  gap: 2em;
-  margin: 2em 0 2em 0 ;
+  gap: 2rem;
+  margin: 2rem 0 2rem 0 ;
 }
 .job-card .job-card-left img{
-  height: 150px;
+  height: auto;
   width: 150px;
 }
 .job-card .job-card-left h3{
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 400;
   color: #508C9B;
 }
 .job-card .job-card-left p{
-  font-size: 1.2em;
-  margin: 0.2em 0;
+  font-size: 1.2rem;
+  margin: 0.2rem 0;
 }
 .job-card-left .time{
   display: inline-block;
   background-color: #508C9B;
-  padding: 0.2em 1em;
+  padding: 0.2rem 1rem;
   border-radius: 6px;
   color: #FFFFFF;
   font-weight: 300;
@@ -232,23 +232,23 @@ body{
 }
 .job-card .list li{
   text-align: justify;
-  margin: 1em 2em 1em 0;
+  margin: 1rem 2rem 1rem 0;
 }
 .jobs{
-  margin: 6em 6em;
+  margin: 6rem 6rem;
   align-items: start;
 }
 .jobs h2{
-  font-size: 2.8em;
+  font-size: 2.8rem;
   color: #508C9B;
-  padding: 4em 0 1em;
+  padding: 4rem 0 1rem;
   border-bottom: 3px solid #508C9B;
 }
 /*                              ************Extra Curricular***********/
 .image-banner{
   background-color: #e7edf1;
   display: inline-block;
-  padding: 1em;
+  padding: 1rem;
   border-radius: 6px;
   box-shadow: rgba(99, 99, 99, 0.2) 2px 6px 6px 2px;
 }
@@ -259,83 +259,139 @@ body{
 .image-banner .title{
   display: flex;
   justify-content: space-between;
-  margin: 1em 0;
+  margin: 1rem 0;
 }
 .image-banner .title h5{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #508C9B;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
 }
 .image-banner .title p{
   display: flex;
   align-items: center;
-  gap: 0.6em;
+  gap: 0.6rem;
   background-color: #508C9B;
-  padding: 0.2em 1em;
+  padding: 0.2rem 1rem;
   border-radius: 6px;
   color: #FFFFFF;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   font-weight: 300;
 }
 .image-banner .achievement{
-  font-size: 1em;
+  font-size: 1rem;
   color: #ffffff;
   background-color: #508C9B;
   margin: 0;
-  padding: 0.2em 1em;
+  padding: 0.2rem 1rem;
   border-radius: 6px;
 }
 .extra-curricular{
-  padding: 6em 6em;
+  padding: 6rem 6rem;
 }
 .extra-curricular h2{
-  font-size: 2.8em;
+  font-size: 2.8rem;
   color: #508C9B;
-  margin-bottom: 4em;
-  padding-bottom: 1em;
+  margin-bottom: 4rem;
+  padding-bottom: 1rem;
   border-bottom: 3px solid #508C9B;
 }
 .extra-curricular .banners{
   display: flex;
-  gap: 4em;
+  gap: 4rem;
 }
 
-/*                                **********Research***********/
+/*                                **********Research Card***********/
 .research-card{
   display: flex;
-  gap: 2em;
-  padding: 1em;
+  gap: 2rem;
+  padding: 1rem;
   background-color: #e7edf1;
   border-radius: 6px;
   box-shadow: rgba(99, 99, 99, 0.2) 2px 6px 6px 2px;
   width: 70%;
   text-decoration: none;
+  margin: 4rem 0;
 }
 .research-card img{
   height: 100px;
   width: 100px;
 }
-.research-card h5{
-  font-size: 1.2em;
+.research-card .link{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
   color: #508C9B;
 }
-.research-card p{
-  font-size: 0.9em;
-  margin: 0.2em 0;
+.research-card .link:hover{
+  color: #40707c;
 }
+.research-card p{
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+}
+.research-card .info{
+  display: flex;
+  justify-content: space-between;
+}
+.research-card .info-text{
+    max-width: 50%;
+  color: #4d4d4d;
+}
+.research-card .info-btn{
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.research-card .info-btn a{
+  margin-top: auto;
+}
+/*                        ***********Researches****************/
 .researches{
-  padding: 6em 6em;
+  padding: 6rem 6rem;
 }
 .researches h1{
   text-align: center;
-  font-size: 2.8em;
+  font-size: 2.8rem;
   color: #508C9B;
 }
 .researches h3{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #508C9B;
   margin-top: 60px;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   border-bottom: 3px solid #508C9B;
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
+}
+
+
+/*                                    ******PDF***********/
+.pdf{
+  padding: 0 320px;
+  min-height: 100vh;
+}
+.pdf .pdf-nav{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1200;
+}
+.pdf button{
+  border: none;
+  padding: 0!important;
+  font-size: 2rem;
+  background: none;
+  color: #b6b6b6;
+}
+.pdf button:hover{
+  color: #508C9B;
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+}
+.pdf-nav p{
+  margin: 12px 0 0;
+  padding: 0;
 }

@@ -1,13 +1,14 @@
 import CardHorizontal from "./CardHorizontal.jsx";
 
 
-const Academic = () => {
+const Academic = (props) => {
+    const array = props.data;
     return (
         <div className="academic">
             <h2>Academic Credentials</h2>
-            <CardHorizontal/>
-            <CardHorizontal/>
-            <CardHorizontal/>
+            {array.map((data) =>{
+                return <CardHorizontal key={data.id} data={data}/>
+            })}
         </div>
     );
 };

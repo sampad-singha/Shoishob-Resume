@@ -1,0 +1,62 @@
+{
+  "academic":
+    [
+      {
+        "id": 1,
+        "image": "src/assets/ruet.png",
+        "degree": "Bachelor in Urban & Regional Planning",
+        "span": "Jan 2018 - Oct 2023",
+        "institute": "Rajshahi University of Engineering and Technology",
+        "grade": 3.80,
+        "scale": 4.00
+      },
+      {
+        "id": 2,
+        "image": "src/assets/edward.png",
+        "degree": "Higher Secondary Certificate",
+        "span": "2016 - 2017",
+        "institute": "Govt. Edward College, Pabna",
+        "grade": 5.00,
+        "scale": 5.00
+      },
+      {
+        "id": 3,
+        "image": "src/assets/pzs.png",
+        "degree": "Secondary School Certificate",
+        "span": "2013 - 2015",
+        "institute": "Pabna Zilla School",
+        "grade": 5.00,
+        "scale": 5.00
+      }
+    ],
+    "experience":
+    [
+      {
+          "id": 1,
+          "image": "src/assets/cegis.png",
+          "designation": "Research Consultant, Remote Sensing Division",
+          "span": "Nov 2023 - Present",
+          "company": "Centre for Environmental and Geographic Information Services",
+          "location": "Dhaka, Bangladesh",
+          "responsibilities":
+                  [
+                    "Consultancy Services for Land Use Mapping Using Satellite Images and Remote Sensing Technology.",
+                    "Advanced GIS Analysis on Remote Sensing Data (Spatial Analysis, Developing Geospatial Database analysis and Map preparation,Digital Database Management for Data Accumulation,Compilation of Land Use Zoning and Cropping Pattern)",
+                    "Chittagong City Water Logging Project ( Develop and Renovate the drainage network by connecting the drains and canals)",
+                    "Generation of the Land Cover and National Capital Map and Developing Integrated Collaborative Forest Management Plan."
+                  ]
+      },
+      {
+          "id": 2,
+          "image": "src/assets/rajuk.png",
+          "designation": "Intern Planner",
+          "span": "Mar 2023 - Apr 2023",
+          "company": "Rajdhani Unnayan Kartripakkha",
+          "location": "Dhaka, Bangladesh",
+          "responsibilities":
+                  [
+                    "Preparation of Concept Plan for Gabtoli TOD Area: Northern part."
+                  ]
+      }
+    ]
+}
