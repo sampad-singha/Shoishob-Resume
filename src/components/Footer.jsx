@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="footer">
             <h5>Follow me on social media</h5>
             <div className="footer-links">
-                <a href=""><FaInstagram /></a>
-                <a href=""><FaFacebook /></a>
-                <a href=""><FaLinkedin /></a>
+                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://google.com"><FaInstagram /></a>
+                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://google.com"><FaFacebook /></a>
+                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://google.com"><FaLinkedin /></a>
             </div>
             <p>©2025 Shahriar Ahmed</p>
         </div>

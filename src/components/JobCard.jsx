@@ -14,7 +14,7 @@ const JobCard = (props) => {
             <div className="list">
                 <h5>Responsibilities:</h5>
                 <ul>
-                    {job.responsibilities.map((responsibility, index) => {
+                    {job.responsibilities.map((responsibility) => {
                         return <li>{responsibility}</li>
                     })}
                 </ul>

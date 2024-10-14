@@ -6,9 +6,14 @@ import {FaLocationDot} from "react-icons/fa6";
 import {FaPhone} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 import db from "/database.json"
+import {useEffect} from "react";
 
 function App() {
     const academic = db?.academic;
+    useEffect(() => {
+        // Scroll to the top when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
   return (
     <>
         <NavBar/>

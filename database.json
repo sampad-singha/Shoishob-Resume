@@ -58,5 +58,44 @@
                     "Preparation of Concept Plan for Gabtoli TOD Area: Northern part."
                   ]
       }
+    ],
+  "extraCurricular":
+    [
+      {
+          "id": 1,
+          "image": "src/assets/ruet-cricket-club.jpg",
+          "designation": "Captain",
+          "span": "Oct 2022 - Jul 2023",
+          "organization": "RUET Cricket Club",
+          "location": "Rajshahi, Bangladesh",
+          "achievement": "Top 24 of Inter University Cricket Championship,2024"
+      },
+      {
+          "id": 2,
+          "image": "src/assets/ruet-cricket-club.jpg",
+          "designation": "Captain",
+          "span": "Oct 2022 - Sep 2023",
+          "organization": "URP Cricket Team, RUET",
+          "location": "Rajshahi, Bangladesh",
+          "achievement": "Champion of RUET Inter Department Cricket Tournament, 2022"
+      },
+      {
+        "id": 3,
+        "image": "src/assets/ruet-cricket-club.jpg",
+        "designation": "Captain",
+        "span": "Oct 2022 - Sep 2023",
+        "organization": "URP Football Team,RUET",
+        "location": "Rajshahi, Bangladesh",
+        "achievement": ""
+      },
+      {
+        "id": 4,
+        "image": "src/assets/ruet-cricket-club.jpg",
+        "designation": "Organizing Secretary",
+        "span": "Oct 2022 - Sep 2023",
+        "organization": "Pabna District Association,RUET",
+        "location": "Rajshahi, Bangladesh",
+        "achievement": ""
+      }
     ]
 }
