@@ -12,6 +12,7 @@ const Experience = () => {
         window.scrollTo(0, 0);
     }, []);
     const experience = db?.experience;
+    const extraCurricular = db?.extraCurricular;
     return (
         <div>
             <NavBar/>
@@ -24,7 +25,7 @@ const Experience = () => {
                     />
                 })}
             </div>
-            <ExtraCurricular/>
+            <ExtraCurricular data={extraCurricular}/>
             <Footer/>
         </div>
     );

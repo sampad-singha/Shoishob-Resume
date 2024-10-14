@@ -247,13 +247,12 @@ body{
 /*                              ************Extra Curricular***********/
 .image-banner{
   background-color: #e7edf1;
-  display: inline-block;
   padding: 1rem;
   border-radius: 6px;
   box-shadow: rgba(99, 99, 99, 0.2) 2px 6px 6px 2px;
+  width: 392px;
 }
 .image-banner img{
-  width: 100%;
   border-radius: 6px;
 }
 .image-banner .title{
@@ -264,7 +263,7 @@ body{
 .image-banner .title h5{
   font-size: 1.5rem;
   color: #508C9B;
-  letter-spacing: 0.2rem;
+  /*letter-spacing: 0.2rem;*/
 }
 .image-banner .title p{
   display: flex;
@@ -276,6 +275,7 @@ body{
   color: #FFFFFF;
   font-size: 0.8rem;
   font-weight: 300;
+  flex-shrink: 0;
 }
 .image-banner .achievement{
   font-size: 1rem;
@@ -298,6 +298,8 @@ body{
 .extra-curricular .banners{
   display: flex;
   gap: 4rem;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /*                                **********Research Card***********/
