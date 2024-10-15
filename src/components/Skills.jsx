@@ -23,30 +23,38 @@ const Skills = (props) => {
                 </Tab>
                 <Tab eventKey="Quantitative" title="Quantitative Data Analysis">
                     <div className="skill-group">
-                        {/*<Skill/>*/}
-                        {/*<Skill/>*/}
-                        {/*<Skill/>*/}
+                        {skills.map((skill)=>{
+                            if(skill.type === "qda"){
+                                return <Skill key={skill.id} skill={skill}/>
+                            }
+                        })}
                     </div>
                 </Tab>
                 <Tab eventKey="Programming" title="Programming Language">
                     <div className="skill-group">
-                        {/*<Skill/>*/}
-                        {/*<Skill/>*/}
-                        {/*<Skill/>*/}
+                        {skills.map((skill)=>{
+                            if(skill.type === "pl"){
+                                return <Skill key={skill.id} skill={skill}/>
+                            }
+                        })}
                     </div>
                 </Tab>
                 <Tab eventKey="DataVisualization" title="Data Visualization Tools">
                     <div className="skill-group">
-                        {/*<Skill/>*/}
-                        {/*<Skill/>*/}
-                        {/*<Skill/>*/}
+                        {skills.map((skill)=>{
+                            if(skill.type === "dv"){
+                                return <Skill key={skill.id} skill={skill}/>
+                            }
+                        })}
                     </div>
                 </Tab>
                 <Tab eventKey="Design" title="Design and Modelling">
                     <div className="skill-group">
-                        {/*<Skill/>*/}
-                        {/*<Skill/>*/}
-                        {/*<Skill/>*/}
+                        {skills.map((skill)=>{
+                            if(skill.type === "dm"){
+                                return <Skill key={skill.id} skill={skill}/>
+                            }
+                        })}
                     </div>
                 </Tab>
             </Tabs>

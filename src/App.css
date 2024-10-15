@@ -74,9 +74,15 @@ body{
   padding: 0.5rem 0;
   color: #508C9B;
 }
+.skill-card .card-body{
+
+}
 .skill-card .progress-bar-container{
   width: 6rem;
   height: 6rem;
+  margin: 0 auto;
+  /*padding: 10px;*/
+  position: relative;
 }
 
 /*                          ************Skills*************/
