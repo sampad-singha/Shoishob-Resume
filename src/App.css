@@ -42,6 +42,11 @@ body{
   color: #fff;
   padding-bottom: 1rem;
 }
+.about img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
 .about p{
   font-size: 1rem;
   color: #fff;
@@ -339,22 +344,48 @@ body{
   font-size: 0.9rem;
   margin: 0.2rem 0;
 }
+.research-card .text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  width: 100%;
+}
 .research-card .info{
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
 }
 .research-card .info-text{
-    max-width: 50%;
+  max-width: 50%;
   color: #4d4d4d;
 }
 .research-card .info-btn{
+  margin-top: auto;
   display: flex;
-  gap: 1.5rem;
   font-size: 1.2rem;
   padding: 1rem;
+  justify-content: end;
+  gap: 1.5rem;
 }
 .research-card .info-btn a{
   margin-top: auto;
+  padding: 0;
+  color: #4d4d4d;
+  border: none;
+}
+.research-card .info-btn .btn-ppt{
+  color: #d55739;
+  text-decoration: none;
+}
+.research-card .info-btn .btn-ppt:hover{
+  transition-duration: 0.25s;
+  transform: scale(1.2);
+  color: #d04423;
+}
+.research-card .info-btn .btn-down:hover{
+  transition-duration: 0.25s;
+  transform: scale(1.2);
+  color: #1a1a1a;
 }
 /*                        ***********Researches****************/
 .researches{
@@ -377,8 +408,16 @@ body{
 
 /*                                    ******PDF***********/
 .pdf{
-  padding: 0 320px;
+  /*margin: 0 60px;*/
   min-height: 100vh;
+}
+.pdf .pdf-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  flex-wrap: wrap;
 }
 .pdf .pdf-nav{
   display: flex;
@@ -404,4 +443,17 @@ body{
 .pdf-nav p{
   margin: 12px 0 0;
   padding: 0;
+}
+
+/*                                    ***********ppt ***********/
+.ppt-view .ppt{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.ppt-view h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #508C9B;
+    margin: 4rem 0;
 }

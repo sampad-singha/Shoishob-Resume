@@ -24,8 +24,8 @@ const ResearchCard = (props) => {
                         <p><strong>Year: </strong>{record.year}</p>
                     </div>
                     <div className={"info-btn"}>
-                        {record.ppt && <a className={"btn"} href={record.ppt} download={record.title+".ppt"}><FaFilePowerpoint/></a>}
-                        {record.pdf && <a className={"btn"} href={record.pdf} download={record.title+".pdf"}><FaDownload/></a>}
+                        {record.ppt && <a className={"btn btn-lg btn-ppt"} href={"/presentation/" + record.id}><FaFilePowerpoint className={"ppt-icon"}/></a>}
+                        {record.pdf && <a className={"btn btn-lg btn-down"} href={record.pdf} download={record.title+".pdf"}><FaDownload/></a>}
                     </div>
                 </div>
             </div>

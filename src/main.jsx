@@ -8,6 +8,7 @@ import './App.css'
 import Experience from "./pages/Experience.jsx";
 import Researches from "./pages/Researches.jsx";
 import PdfView from "./pages/PdfView.jsx";
+import PptView from "./pages/PptView.jsx";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         path: '/experience',
         element: <Experience/>,
 
+    },
+    {
+        path: '/presentation/:id',
+        element: <PptView/>,
     }
 ]);
 createRoot(document.getElementById('root')).render(

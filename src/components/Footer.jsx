@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="footer">
             <h5>Follow me on social media</h5>
             <div className="footer-links">
-                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://google.com"><FaInstagram /></a>
-                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://google.com"><FaFacebook /></a>
-                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://google.com"><FaLinkedin /></a>
+                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://www.instagram.com/shoi5hob?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaInstagram /></a>
+                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://www.facebook.com/profile.php?id=100010469265956"><FaFacebook /></a>
+                <a target="_blank" onClick={()=>(e.preventDefault())} href="https://www.linkedin.com/"><FaLinkedin /></a>
             </div>
-            <p>©2025 Shahriar Ahmed</p>
+            <p>© 2025 Shahriar Ahmed</p>
         </div>
     );
 };

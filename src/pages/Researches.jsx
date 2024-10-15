@@ -16,10 +16,17 @@ const Researches = () => {
             <div className={"researches"}>
                 <h1>Research Experience</h1>
                 <h3>Undergrad Thesis</h3>
-                {/*<ResearchCard/>*/}
-                {/*<ResearchCard/>*/}
+                {researches.map((research,index) => {
+                    if (research.type === "thesis") {
+                        return <ResearchCard key={index} research={research}/>
+                    }
+                })}
                 <h3>Publication</h3>
-                {/*<ResearchCard/>*/}
+                {researches.map((research,index) => {
+                    if (research.type === "publication") {
+                        return <ResearchCard key={index} research={research}/>
+                    }
+                })}
                 <h3>Academic Research</h3>
                 {researches.map((research,index) => {
                     if (research.type === "academic") {
