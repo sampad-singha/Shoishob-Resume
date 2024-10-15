@@ -97,5 +97,92 @@
         "location": "Rajshahi, Bangladesh",
         "achievement": ""
       }
+    ],
+  "skills":
+    [
+      {
+        "id": 1,
+        "name": "ArcGIS Pro",
+        "level": 7,
+        "image": "src/assets/arcgis.png",
+        "type": "geo"
+      },
+      {
+        "id": 2,
+        "name": "ArcMap",
+        "level": 7.5,
+        "image": "src/assets/arcmap.png",
+        "type": "geo"
+      },
+      {
+        "id": 3,
+        "name": "Google Earth",
+        "level": 7,
+        "image": "src/assets/google-earth.png",
+        "type": "geo"
+      },
+      {
+        "id": 4,
+        "name": "SPSS",
+        "level": 8,
+        "image": "src/assets/spss.png",
+        "type": "qda"
+      },
+      {
+        "id": 5,
+        "name": "Microsoft Excel",
+        "level": 9,
+        "image": "src/assets/excel.png",
+        "type": "qda"
+      },
+      {
+        "id": 6,
+        "name": "Python",
+        "level": 8.5,
+        "image": "src/assets/python.png",
+        "type": "pl"
+      },
+      {
+        "id": 7,
+        "name": "Microsoft Powerpoint",
+        "level": 9,
+        "image": "src/assets/ppt.png",
+        "type": "dv"
+      },
+      {
+        "id": 8,
+        "name": "Microsoft Word",
+        "level": 9,
+        "image": "src/assets/word.png",
+        "type": "dv"
+      },
+      {
+        "id": 9,
+        "name": "Adobe Illustrator",
+        "level": 9,
+        "image": "src/assets/ai.png",
+        "type": "dv"
+      },
+      {
+        "id": 10,
+        "name": "AutoCAD",
+        "level": 9,
+        "image": "src/assets/autocad.png",
+        "type": "dm"
+      },
+      {
+        "id": 11,
+        "name": "SketchUp",
+        "level": 8,
+        "image": "src/assets/SketchUp.png",
+        "type": "dm"
+      },
+      {
+        "id": 12,
+        "name": "Lumion",
+        "level": 6,
+        "image": "src/assets/Lumion.png",
+        "type": "dm"
+      }
     ]
 }

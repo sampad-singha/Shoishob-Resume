@@ -10,6 +10,7 @@ import {useEffect} from "react";
 
 function App() {
     const academic = db?.academic;
+    const skills = db?.skills;
     useEffect(() => {
         // Scroll to the top when the component mounts
         window.scrollTo(0, 0);
@@ -41,7 +42,7 @@ function App() {
                 <img src="" className="placeholder" alt="" height="280px" width="280px"/>
             </div>
         </div>
-        <Skills/>
+        <Skills skills={skills}/>
         <Academic
             data={academic}
         />
