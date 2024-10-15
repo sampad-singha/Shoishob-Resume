@@ -1,27 +1,31 @@
 import {Link} from "react-router-dom";
 import {FaDownload, FaFilePowerpoint} from "react-icons/fa";
 
-const ResearchCard = () => {
+const ResearchCard = (props) => {
+    const record = props.research;
+    const id=record.id;
     return (
         <div className="research-card">
             <div>
-                <img className="placeholder" src="" alt=""/>
+                <img className="" src={record.image} alt=""/>
             </div>
             <div className={"text"}>
-                <Link className={"link"} to={'/research/'+1}>
-                    The Economic Impact of Tropical Storms
-                    on the Suburban&#39;s Mangrove Ecosystem
-                    Services and Local Communities
+                <Link className={"link"} to={'/research/'+id}>
+                    {record.title}
                 </Link>
                 <div className={"info"}>
                     <div className={"info-text"}>
-                        <p>Author(s): Shahriar Ahmed</p>
-                        <p>Journal Name: Elsvier</p>
-                        <p>Year: 2023</p>
+                        <p><strong>Authors: </strong>
+                            {record.authors.map((author,index) => {
+                                return <span key={index}>{author}, </span>
+                            })}
+                        </p>
+                        <p><strong>Journal Name: </strong>{record.journal}</p>
+                        <p><strong>Year: </strong>{record.year}</p>
                     </div>
                     <div className={"info-btn"}>
-                        <a href=""><FaFilePowerpoint/></a>
-                        <a href=""><FaDownload/></a>
+                        {record.ppt && <a className={"btn"} href={record.ppt} download={record.title+".ppt"}><FaFilePowerpoint/></a>}
+                        {record.pdf && <a className={"btn"} href={record.pdf} download={record.title+".pdf"}><FaDownload/></a>}
                     </div>
                 </div>
             </div>

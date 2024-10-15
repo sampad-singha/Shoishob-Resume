@@ -8,7 +8,7 @@ const Skills = (props) => {
             <h2>Technical Skills</h2>
 
             <Tabs
-                defaultActiveKey="home"
+                defaultActiveKey="geospatial"
                 id="uncontrolled-tab-example"
                 className="mb-3"
             >

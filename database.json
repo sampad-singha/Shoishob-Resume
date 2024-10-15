@@ -184,5 +184,129 @@
         "image": "src/assets/Lumion.png",
         "type": "dm"
       }
+    ],
+  "researches":
+    [
+      {
+        "id": 1,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover-1.png",
+        "title": "Resettling the Evicted People from the Bank of the Ichamati River to Hemayetpur, Pabna Municipality",
+        "year": 2021,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed ", "Antar Banik", "Md. Alif-Al-Maruf","Md. Ashiqur Rahman"],
+        "pdf": "src/assets/files/A Project Proposal of Resettling the Evicted People from the Bank of the Ichamati River to Hemayetpur, Pabna Municipality.pdf",
+        "ppt": null
+      },
+      {
+        "id": 2,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover-2.jpg",
+        "title": "Economic Loss due to Traffic Congestion in the Rail Crossings",
+        "year": 2022,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed ", "Antar Banik", "Md. Ashiqur Rahman"],
+        "pdf": "src/assets/files/An analysis of economic loss due to traffic congestion.pdf",
+        "ppt": null
+      },
+      {
+        "id": 3,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "Assessing The Impact of Flood on Farming in The Rural Area",
+        "year": 2021,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed ", "Antar Banik", "Md. Alif-Al-Maruf","Md. Ashiqur Rahman"],
+        "pdf": "src/assets/files/Assessing the impact of flood on farming in the rural area A case study of Talukkanupur Union, Gaibandha..pdf",
+        "ppt": "src/assets/files/Assessing the impact of flood on farming in the rural area A case study of Talukkanupur Union, Gaibandha..pptx"
+      },
+      {
+        "id": 4,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "Map of Kashiadanga",
+        "year": 2021,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed "],
+        "pdf": "src/assets/files/Map of Kashiadanga-Model.pdf",
+        "ppt": null
+      },
+      {
+        "id": 5,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "Assessment of Economic Changes through Short run and Long run Regional",
+        "year": 2022,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed","Md. Ashiqur Rahman"],
+        "pdf": "src/assets/files/Assessment of Economic Changes through Short run and Long run Regional.pdf",
+        "ppt": null
+      },
+      {
+        "id": 6,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "Assessment of the Impact of Disaster on Agricultural Production and Its Influence on Overall Development",
+        "year": 2022,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed","Md. Ashiqur Rahman"],
+        "pdf": "src/assets/files/Assessment of the Impact of Disaster on Agricultural Production and Its Influence on Overall Development..pdf",
+        "ppt": null
+      },
+      {
+        "id": 7,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "Calculating Land Surface Temperature",
+        "year": 2020,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed"],
+        "pdf": "src/assets/files/Calculating Land Surface Temperature.pdf",
+        "ppt": null
+      },
+      {
+        "id": 8,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "Image Classification and Accuracy Test",
+        "year": 2020,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed"],
+        "pdf": "src/assets/files/Image Classification & Accuracy Test.pdf",
+        "ppt": null
+      },
+      {
+        "id": 9,
+        "type": "academic",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "Mosaic and Changing Projection System",
+        "year": 2020,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed"],
+        "pdf": "src/assets/files/Mosaic and Changing Projection System.pdf",
+        "ppt": null
+      },
+      {
+        "id": 10,
+        "type": "thesis",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "The Economic Impact of Tropical Storms on the Sundarban's Mangrove Ecosystem Services and Local Communities",
+        "year": 2023,
+        "journal": null,
+        "authors": ["Md. Shahriar Ahmed","Md. Ashiqur Rahman"],
+        "pdf": "src/assets/files/Main Copy_thesis.pdf",
+        "ppt": "src/assets/files/PPT_thesis.pptx"
+      },
+      {
+        "id": 11,
+        "type": "publication",
+        "image": "src/assets/research-cover/cover.png",
+        "title": "An Analysis on the Morbidity of Slum Dwellers A Case Study of Rajshahi City",
+        "year": 2020,
+        "journal": "International Conference on Chemical Engineering (ICCHE) 2020. BUET.",
+        "authors": ["Md. Shahriar Ahmed","Md. Ashiqur Rahman","Md. Alif-Al-Maruf","Antar Banik","Md. Abdul Momin","Nazia Hossain","Md. Sakib Zubayer"],
+        "pdf": "src/assets/files/An Analysis on the Morbidity of Slum Dwellers A Case Study of Rajshahi City.pdf",
+        "ppt": null
+      }
     ]
 }

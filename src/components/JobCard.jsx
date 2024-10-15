@@ -1,4 +1,4 @@
-
+/* eslint react/prop-types: 0 */
 const JobCard = (props) => {
     const job = props.job;
     return (
@@ -14,8 +14,8 @@ const JobCard = (props) => {
             <div className="list">
                 <h5>Responsibilities:</h5>
                 <ul>
-                    {job.responsibilities.map((responsibility) => {
-                        return <li>{responsibility}</li>
+                    {job.responsibilities.map((responsibility,index) => {
+                        return <li key={index}>{responsibility}</li>
                     })}
                 </ul>
             </div>
