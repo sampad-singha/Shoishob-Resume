@@ -11,7 +11,7 @@ import {useEffect} from "react";
 function App() {
     const academic = db?.academic;
     const skills = db?.skills;
-    const shoishob_image = "src/assets/shoishob.jpg"
+    const shoishob_image = "/assets/shoishob.jpg"
     useEffect(() => {
         // Scroll to the top when the component mounts
         window.scrollTo(0, 0);
