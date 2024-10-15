@@ -9,12 +9,13 @@ import Experience from "./pages/Experience.jsx";
 import Researches from "./pages/Researches.jsx";
 import PdfView from "./pages/PdfView.jsx";
 import PptView from "./pages/PptView.jsx";
+import NotFoundPage404 from "./components/NotFoundPage404.jsx";
 
 const router = createBrowserRouter([
     {
        path: '/',
         element: <App />,
-        errorElement: <h1>404 Not Found</h1>,  // Work later
+        errorElement: <NotFoundPage404/>,  // Work later
     },
     {
         path: '/research',

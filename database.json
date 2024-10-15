@@ -72,7 +72,7 @@
       },
       {
           "id": 2,
-          "image": "src/assets/ruet-cricket-club.jpg",
+          "image": "src/assets/urp-cricket.png",
           "designation": "Captain",
           "span": "Oct 2022 - Sep 2023",
           "organization": "URP Cricket Team, RUET",
@@ -81,7 +81,7 @@
       },
       {
         "id": 3,
-        "image": "src/assets/ruet-cricket-club.jpg",
+        "image": "src/assets/urp-football.png",
         "designation": "Captain",
         "span": "Oct 2022 - Sep 2023",
         "organization": "URP Football Team,RUET",
