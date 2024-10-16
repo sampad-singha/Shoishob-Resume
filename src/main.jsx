@@ -25,6 +25,7 @@ const router = createBrowserRouter([
     {
         path: '/research/:id',
         element: <PdfView/>,
+        errorElement: <NotFoundPage404/>,
     },
     {
         path: '/experience',
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
     {
         path: '/presentation/:id',
         element: <PptView/>,
+        errorElement: <NotFoundPage404/>,
     }
 ]);
 createRoot(document.getElementById('root')).render(
