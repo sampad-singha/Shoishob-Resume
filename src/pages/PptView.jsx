@@ -2,11 +2,14 @@ import NavBar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 import {useParams} from "react-router-dom";
 import db from "/database.json";
+import {useEffect} from "react";
 const PptView = () => {
+    useEffect(() => {
+        // Scroll to the top when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
     const params = useParams();
-    console.log(params.id);
     const record = db?.researches[params.id-1];
-    console.log(record.id);
     return (
         <div className={"ppt-view"}>
             <NavBar/>

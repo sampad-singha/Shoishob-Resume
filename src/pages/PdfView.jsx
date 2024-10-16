@@ -1,6 +1,6 @@
 import { pdfjs } from 'react-pdf';
 import pdf2 from '../../public/assets/files/11.pdf'
-import { useState } from 'react';
+import {useEffect, useState} from 'react';
 import { Document, Page } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
@@ -13,6 +13,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 /* eslint react/prop-types: 0 */
 
 function PdfView() {
+    useEffect(() => {
+        // Scroll to the top when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
 
     const params = useParams();
     const pdf_string = db.researches[params.id-1].pdf;
