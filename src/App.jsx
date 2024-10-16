@@ -7,11 +7,11 @@ import {FaPhone} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 import db from "/database.json"
 import {useEffect} from "react";
-
+import shoishob_image from "./assets/shoishob.jpg"
 function App() {
     const academic = db?.academic;
     const skills = db?.skills;
-    const shoishob_image = "/assets/shoishob.jpg"
+    // const shoishob_image = "src/assets/shoishob.jpg"
     useEffect(() => {
         // Scroll to the top when the component mounts
         window.scrollTo(0, 0);
