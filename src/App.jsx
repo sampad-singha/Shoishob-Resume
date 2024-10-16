@@ -7,7 +7,7 @@ import {FaPhone} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 import db from "/database.json"
 import {useEffect} from "react";
-import shoishob_image from "./assets/shoishob.jpg"
+import shoishob_image from "../public/assets/shoishob.jpg"
 function App() {
     const academic = db?.academic;
     const skills = db?.skills;

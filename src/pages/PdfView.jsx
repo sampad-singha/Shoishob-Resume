@@ -1,5 +1,5 @@
 import { pdfjs } from 'react-pdf';
-import pdf2 from '../assets/files/11.pdf'
+import pdf2 from '../../public/assets/files/11.pdf'
 import { useState } from 'react';
 import { Document, Page } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';

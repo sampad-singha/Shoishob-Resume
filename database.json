@@ -139,7 +139,7 @@
         "id": 6,
         "name": "Python",
         "level": 8.5,
-        "image": "src/assets/python.png",
+        "image": "/assets/python.png",
         "type": "pl"
       },
       {

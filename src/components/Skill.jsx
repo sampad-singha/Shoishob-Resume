@@ -1,12 +1,13 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
 import Card from "react-bootstrap/Card";
 import {buildStyles, CircularProgressbar} from "react-circular-progressbar";
 import 'react-circular-progressbar/dist/styles.css';
-
 const Skill = (props) => {
     const skill = props?.skill;
-    console.log(skill)
+
+
+    // const imageURL = new URL(skill.image, import.meta.url).href;
+    // const image = imageURL.slice(imageURL.indexOf("/src"),imageURL.length);
+
     return (
         <div className="skill-card">
             <Card style={{ width: '12rem' }}>
