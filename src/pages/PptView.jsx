@@ -14,14 +14,14 @@ const PptView = () => {
         <div className={"ppt-view"}>
             <NavBar/>
             <h3><strong>Title: </strong>{record.title}</h3>
-            {/*<div className={"ppt"}>*/}
-            {/*    <iframe*/}
-            {/*        src={record.ppt}*/}
-            {/*        width="952px"*/}
-            {/*        height="576px"*/}
-            {/*        loading="lazy">*/}
-            {/*    </iframe>*/}
-            {/*</div>*/}
+            <div className={"ppt"}>
+                <iframe
+                    src={record.ppt}
+                    width="952px"
+                    height="576px"
+                    loading="lazy">
+                </iframe>
+            </div>
             <Footer/>
         </div>
     );
