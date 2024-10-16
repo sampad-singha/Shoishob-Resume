@@ -10,6 +10,7 @@ import Researches from "./pages/Researches.jsx";
 import PdfView from "./pages/PdfView.jsx";
 import PptView from "./pages/PptView.jsx";
 import NotFoundPage404 from "./components/NotFoundPage404.jsx";
+import Presentation from "./pages/Presentation.jsx";
 
 const router = createBrowserRouter([
     {
@@ -31,7 +32,11 @@ const router = createBrowserRouter([
 
     },
     {
-        path: '/research/presentation/:id',
+        path: '/presentation',
+        element: <Presentation/>,
+    },
+    {
+        path: '/presentation/:id',
         element: <PptView/>,
     }
 ]);
