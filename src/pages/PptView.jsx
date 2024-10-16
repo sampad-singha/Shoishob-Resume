@@ -15,12 +15,12 @@ const PptView = () => {
             <NavBar/>
             <h3><strong>Title: </strong>{record.title}</h3>
             <div className={"ppt"}>
-                <iframe
-                    src={record.ppt}
-                    width="952px"
-                    height="576px"
-                    loading="lazy">
-                </iframe>
+                {/*<iframe*/}
+                {/*    src={record.ppt}*/}
+                {/*    width="952px"*/}
+                {/*    height="576px"*/}
+                {/*    loading="lazy">*/}
+                {/*</iframe>*/}
             </div>
             <Footer/>
         </div>

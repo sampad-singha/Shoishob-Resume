@@ -31,7 +31,7 @@ const router = createBrowserRouter([
 
     },
     {
-        path: 'presentation/:id',
+        path: '/presentation/:id',
         element: <PptView/>,
     }
 ]);
