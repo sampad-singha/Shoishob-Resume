@@ -17,7 +17,7 @@ const ResearchCard = (props) => {
                     <div className={"info-text"}>
                         <p><strong>Authors: </strong>
                             {record.authors.map((author,index) => {
-                                return <span key={index}>{author}, </span>
+                                return <span key={index}>{author}{index !==(record.authors.length-1) && ","} </span>
                             })}
                         </p>
                         <p><strong>Journal Name: </strong>{record.journal}</p>
