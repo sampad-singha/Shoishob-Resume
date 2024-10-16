@@ -408,7 +408,6 @@ body{
 
 /*                                    ******PDF***********/
 .pdf{
-  /*margin: 0 60px;*/
   min-height: 100vh;
 }
 .pdf .pdf-page{
@@ -420,6 +419,8 @@ body{
   flex-wrap: wrap;
 }
 .pdf .pdf-nav{
+  margin: 0 auto;
+  max-width: 25%;
   display: flex;
   justify-content: center;
   gap: 1rem;
