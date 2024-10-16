@@ -195,7 +195,7 @@
         "year": 2021,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed ", "Antar Banik", "Md. Alif-Al-Maruf","Md. Ashiqur Rahman"],
-        "pdf": "/src/assets/files/1.pdf",
+        "pdf": "/assets/files/1.pdf",
         "ppt": null
       },
       {
@@ -206,7 +206,7 @@
         "year": 2022,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed ", "Antar Banik", "Md. Ashiqur Rahman"],
-        "pdf": "/src/assets/files/2.pdf",
+        "pdf": "/assets/files/2.pdf",
         "ppt": null
       },
       {
@@ -217,7 +217,7 @@
         "year": 2021,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed ", "Antar Banik", "Md. Alif-Al-Maruf","Md. Ashiqur Rahman"],
-        "pdf": "/src/assets/files/3.pdf",
+        "pdf": "/assets/files/3.pdf",
         "ppt": "https://1drv.ms/p/c/de64093fe3d9e36d/IQQKiMchc2sGQrQDE7tma8-aARz0Jk8Xxp_FvTatyUJqEPU?em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=1"
       },
       {
@@ -228,7 +228,7 @@
         "year": 2021,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed "],
-        "pdf": "/src/assets/files/4.pdf",
+        "pdf": "/assets/files/4.pdf",
         "ppt": null
       },
       {
@@ -239,7 +239,7 @@
         "year": 2022,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed","Md. Ashiqur Rahman"],
-        "pdf": "/src/assets/files/5.pdf",
+        "pdf": "/assets/files/5.pdf",
         "ppt": null
       },
       {
@@ -250,7 +250,7 @@
         "year": 2022,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed","Md. Ashiqur Rahman"],
-        "pdf": "/src/assets/files/6.pdf",
+        "pdf": "/assets/files/6.pdf",
         "ppt": null
       },
       {
@@ -261,7 +261,7 @@
         "year": 2020,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed"],
-        "pdf": "/src/assets/files/7.pdf",
+        "pdf": "/assets/files/7.pdf",
         "ppt": null
       },
       {
@@ -272,7 +272,7 @@
         "year": 2020,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed"],
-        "pdf": "/src/assets/files/8.pdf",
+        "pdf": "/assets/files/8.pdf",
         "ppt": null
       },
       {
@@ -283,7 +283,7 @@
         "year": 2020,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed"],
-        "pdf": "/src/assets/files/9.pdf",
+        "pdf": "/assets/files/9.pdf",
         "ppt": null
       },
       {
@@ -294,7 +294,7 @@
         "year": 2023,
         "journal": null,
         "authors": ["Md. Shahriar Ahmed","Md. Ashiqur Rahman"],
-        "pdf": "/src/assets/files/10.pdf",
+        "pdf": "/assets/files/10.pdf",
         "ppt": "https://1drv.ms/p/c/de64093fe3d9e36d/IQQi_AinGYDfSKBZlmAJqpD9AZ4p1mpdVb-ZnELX_EbIV9s?em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=1"
       },
       {
@@ -305,7 +305,7 @@
         "year": 2020,
         "journal": "International Conference on Chemical Engineering (ICCHE) 2020. BUET.",
         "authors": ["Md. Shahriar Ahmed","Md. Ashiqur Rahman","Md. Alif-Al-Maruf","Antar Banik","Md. Abdul Momin","Nazia Hossain","Md. Sakib Zubayer"],
-        "pdf": "/src/assets/files/11.pdf",
+        "pdf": "/assets/files/11.pdf",
         "ppt": null
       }
     ]
