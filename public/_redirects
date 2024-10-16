@@ -1,4 +1,1 @@
-// Redirects failed requests to /404Page.html
-/*  /404Page.html  404
-// Redirects all requests to /index.html
 /*  /index.html  200
